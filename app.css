@@ -1,0 +1,319 @@
+/* ── Linked Stylesheets ──
+   https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap
+   https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Hind+Siliguri:wght@400;600;700&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap
+   https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+   https://api.fontshare.com/v2/css?f[]=satoshi@700,500,400&display=swap
+   https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Hind+Siliguri:wght@400;600;700&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap
+   /assets/index-BPm6v_hk.css
+*/
+
+.ios-emoji {
+        font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif !important;
+      }
+      :root {
+        --themeC: #ffffff;
+        --headC: #09090b;
+        --bodyC: #09090b;
+        --bodyCa: #71717a;
+        --bodyB: #ffffff;
+        --linkC: #2563eb;
+        --linkB: #2563eb;
+        --waveB: #f8fafc;
+        --iconC: #2563eb;
+        --iconCa: #2563eb;
+        --iconCs: #2563eb;
+        --headerC: #09090b;
+        --headerB: #ffffff;
+        --contentB: #ffffff;
+        --contentL: #f1f5f9;
+        --notifU: #eff6ff;
+        --notifC: #09090b;
+        --buttonR: 50px;
+        --greetR: 10px;
+        --iconHr: 15px;
+        --thumbEr: 5px;
+        --srchMr: 20px;
+        --srchDr: 20px;
+
+        --zinc-50: #ffffff;
+        --zinc-100: #f4f4f5;
+        --zinc-200: #e4e4e7;
+        --zinc-900: #09090b;
+        --primary: #2563eb;
+        --primary-foreground: #ffffff;
+
+        --context-card-border: #e4e4e7;
+        --ds-gray-1000: #09090b;
+        --ds-gray-alpha-400: rgba(37, 99, 235, 0.12);
+        --ds-background-200: #f4f4f5;
+        --ds-background-200-alpha-800: rgba(255, 255, 255, 0.85);
+        --accents-1: #ffffff;
+        --accents-2: #f4f4f5;
+        --ds-background-100: #ffffff;
+        --ds-overlay: rgba(0, 0, 0, 0.4);
+
+        /* Plus UI Box Shadow Palette */
+        --ds-shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
+        --ds-shadow-button: rgba(37, 99, 235, 0.15) 0px 4px 15px 0px;
+        --ds-shadow-pill: 0 4px 15px 0 rgba(0, 0, 0, 0.05);
+        --ds-shadow-header: 0 1px 3px rgba(0, 0, 0, 0.05);
+
+        --ds-shadow-border: 0 0 0 1px rgba(0, 0, 0, 0.08);
+        --ds-shadow-small: 0 2px 8px rgba(0, 0, 0, 0.04);
+        --ds-shadow-border-small: 0 2px 8px rgba(0, 0, 0, 0.04);
+        --ds-shadow-medium: 0 4px 20px rgba(0, 0, 0, 0.06);
+        --ds-shadow-border-medium: 0 4px 20px rgba(0, 0, 0, 0.06);
+        --ds-shadow-large: 0 10px 25px -3px rgba(0, 0, 0, 0.08);
+        --ds-shadow-border-large: 0 10px 25px -3px rgba(0, 0, 0, 0.08);
+        --ds-shadow-tooltip: 0 4px 12px 0 rgba(0, 0, 0, 0.08);
+        --ds-shadow-menu: 0 4px 20px rgba(0, 0, 0, 0.08);
+        --ds-shadow-modal: 0 10px 30px 0 rgba(0, 0, 0, 0.12);
+        --ds-shadow-fullscreen: 0 10px 30px 0 rgba(0, 0, 0, 0.12);
+      }
+      html {
+        background-color: #ffffff;
+      }
+      html.dark {
+        background-color: #000000;
+      }
+      body {
+        font-family: "Satoshi", "Inter", sans-serif;
+        background-color: #ffffff;
+        background-image: radial-gradient(ellipse 90% 380px at 50% 0px, rgba(59, 130, 246, 0.12), transparent 100%);
+        background-repeat: no-repeat;
+        color: #09090b;
+        user-select: none;
+        scroll-behavior: smooth;
+        overscroll-behavior-y: none;
+        min-height: 100vh;
+      }
+      * {
+        -webkit-tap-highlight-color: transparent !important;
+      }
+      html,
+      body,
+      #root {
+        overscroll-behavior-y: none;
+      }
+
+      img:not(.rounded-full):not(.no-rounded) {
+        border-radius: 12px;
+      }
+      .dark body, html.dark, .drK {
+        background-color: #000000 !important;
+        background-image: radial-gradient(ellipse 90% 380px at 50% 0px, rgba(37, 99, 235, 0.22), transparent 100%) !important;
+        background-repeat: no-repeat;
+        color: #f4f4f5 !important;
+        --themeC: #000000;
+        --headC: #ffffff;
+        --bodyC: #ffffff;
+        --bodyCa: #a1a1aa;
+        --bodyB: #000000;
+        --linkC: #3b82f6;
+        --linkB: #3b82f6;
+        --darkU: #2563eb;
+        --darkT: #ffffff;
+        --darkTa: #a1a1aa;
+        --darkB: #000000;
+        --darkBa: #09090b;
+        --darkBs: #18181b;
+
+        --primary: #3b82f6;
+        --primary-foreground: #ffffff;
+
+        --context-card-border: #27272a;
+        --ds-gray-1000: #ffffff;
+        --ds-gray-alpha-400: rgba(59, 130, 246, 0.25);
+        --ds-background-200: #18181b;
+        --ds-background-200-alpha-800: rgba(0, 0, 0, 0.9);
+        --accents-2: #27272a;
+        --accents-1: #18181b;
+        --ds-background-100: #09090b;
+
+        /* Plus UI Dark Mode Shadows */
+        --ds-shadow-card: 0 10px 40px rgba(0, 0, 0, 0.5);
+        --ds-shadow-button: 0 10px 40px rgba(37, 99, 235, 0.2);
+        --ds-shadow-pill: 0 10px 40px rgba(37, 99, 235, 0.15);
+        --ds-shadow-header: 0 10px 30px rgba(0, 0, 0, 0.5);
+
+        --ds-shadow-border: 0 0 0 1px #27272a;
+        --ds-shadow-small: 0 10px 25px rgba(0, 0, 0, 0.3);
+        --ds-shadow-border-small: 0 10px 25px rgba(0, 0, 0, 0.3);
+        --ds-shadow-medium: 0 10px 40px rgba(0, 0, 0, 0.4);
+        --ds-shadow-border-medium: 0 10px 40px rgba(0, 0, 0, 0.4);
+        --ds-shadow-large: 0 10px 40px rgba(0, 0, 0, 0.5);
+        --ds-shadow-border-large: 0 10px 40px rgba(0, 0, 0, 0.5);
+        --ds-shadow-tooltip: 0 10px 25px rgba(0, 0, 0, 0.4);
+        --ds-shadow-menu: 0 10px 40px rgba(0, 0, 0, 0.5);
+        --ds-shadow-modal: 0 10px 40px rgba(0, 0, 0, 0.6);
+        --ds-shadow-fullscreen: 0 10px 40px rgba(0, 0, 0, 0.6);
+      }
+      ::selection {
+        background-color: var(--zinc-900);
+        color: #ffffff;
+      }
+      .dark ::selection {
+        background-color: #ffffff;
+        color: #000000;
+      }
+      ::-webkit-scrollbar {
+        width: 4px;
+        height: 4px;
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--zinc-200);
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--zinc-900);
+      }
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .hover-lift {
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+      .hover-lift:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+      }
+
+      @keyframes shimmer {
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      .skeleton {
+        position: relative;
+        overflow: hidden;
+        background-color: var(--zinc-100);
+        border-radius: 12px;
+      }
+      .skeleton::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          rgba(255, 255, 255, 0.4),
+          transparent
+        );
+        transform: translateX(-100%);
+        animation: shimmer 1.5s infinite;
+      }
+
+      .image-zoom-container {
+        overflow: hidden;
+      }
+      .image-zoom-container img {
+        transition: transform 0.4s ease;
+      }
+      .image-zoom-container:hover img {
+        transform: scale(1.05);
+      }
+
+      .snap-scroll-x {
+        scroll-snap-type: x mandatory;
+      }
+      .snap-item {
+        scroll-snap-align: center;
+      }
+
+      @keyframes marquee {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+      .animate-marquee {
+        display: inline-block;
+        white-space: nowrap;
+        animation: marquee 25s linear infinite;
+      }
+
+      .hover-tilt:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+      }
+
+      /* Minimalist animation classes */
+      @keyframes slideInUpFade {
+        0% {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-stagger-1 {
+        animation: slideInUpFade 0.4s ease forwards;
+        animation-delay: 0.05s;
+        opacity: 0;
+      }
+      .animate-stagger-2 {
+        animation: slideInUpFade 0.4s ease forwards;
+        animation-delay: 0.1s;
+        opacity: 0;
+      }
+      .animate-stagger-3 {
+        animation: slideInUpFade 0.4s ease forwards;
+        animation-delay: 0.15s;
+        opacity: 0;
+      }
+
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+          transform: translateY(-2px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .animate-fade-in {
+        animation: fade-in 0.2s ease-out forwards;
+      }
+
+      .animate-color-cycle {
+        color: #5F2CFF !important;
+        border-color: #5F2CFF !important;
+        fill: #5F2CFF !important;
+      }
+
+      .animate-color-cycle-bg {
+        background-color: #5F2CFF !important;
+      }
+
+      .animate-color-cycle-hover:hover {
+        color: #5F2CFF !important;
+      }
+      html {
+        -webkit-tap-highlight-color: transparent;
+        touch-action: manipulation;
+      }
+      @media (display-mode: standalone), (display-mode: fullscreen) {
+        html,
+        body {
+          overscroll-behavior-y: contain;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+      @media print {
+        html,
+        body {
+          display: none !important;
+        }
+      }
